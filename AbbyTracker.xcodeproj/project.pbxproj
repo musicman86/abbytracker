@@ -49,6 +49,7 @@
 		DB6625C11D42F90700DF4C39 /* AbbyTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbbyTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6625C51D42F90700DF4C39 /* AbbyTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbbyTrackerUITests.swift; sourceTree = "<group>"; };
 		DB6625C71D42F90700DF4C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9C37761D42FED900E00882 /* AbbyTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AbbyTracker.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		DB6625A11D42F90700DF4C39 /* AbbyTracker */ = {
 			isa = PBXGroup;
 			children = (
+				DB9C37761D42FED900E00882 /* AbbyTracker.entitlements */,
 				DB6625A21D42F90700DF4C39 /* AppDelegate.swift */,
 				DB6625A41D42F90700DF4C39 /* ViewController.swift */,
 				DB6625A61D42F90700DF4C39 /* Main.storyboard */,
@@ -197,6 +199,11 @@
 					DB66259E1D42F90600DF4C39 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = H56K3G2JRM;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 					DB6625B51D42F90700DF4C39 = {
 						CreatedOnToolsVersion = 7.3;
@@ -404,11 +411,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AbbyTracker/AbbyTracker.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AbbyTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.rwrutta.AbbyTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -416,11 +425,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AbbyTracker/AbbyTracker.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AbbyTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.rwrutta.AbbyTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -489,6 +500,7 @@
 				DB6625CC1D42F90700DF4C39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB6625CD1D42F90700DF4C39 /* Build configuration list for PBXNativeTarget "AbbyTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +509,7 @@
 				DB6625CF1D42F90700DF4C39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB6625D01D42F90700DF4C39 /* Build configuration list for PBXNativeTarget "AbbyTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +518,7 @@
 				DB6625D21D42F90700DF4C39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
