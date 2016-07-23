@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB6625A31D42F90700DF4C39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6625A21D42F90700DF4C39 /* AppDelegate.swift */; };
+		DB6625A51D42F90700DF4C39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6625A41D42F90700DF4C39 /* ViewController.swift */; };
+		DB6625A81D42F90700DF4C39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6625A61D42F90700DF4C39 /* Main.storyboard */; };
+		DB6625AB1D42F90700DF4C39 /* AbbyTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB6625A91D42F90700DF4C39 /* AbbyTracker.xcdatamodeld */; };
+		DB6625AD1D42F90700DF4C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6625AC1D42F90700DF4C39 /* Assets.xcassets */; };
+		DB6625B01D42F90700DF4C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6625AE1D42F90700DF4C39 /* LaunchScreen.storyboard */; };
+		DB6625BB1D42F90700DF4C39 /* AbbyTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6625BA1D42F90700DF4C39 /* AbbyTrackerTests.swift */; };
+		DB6625C61D42F90700DF4C39 /* AbbyTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6625C51D42F90700DF4C39 /* AbbyTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB6625B71D42F90700DF4C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB6625971D42F90600DF4C39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB66259E1D42F90600DF4C39;
+			remoteInfo = AbbyTracker;
+		};
+		DB6625C21D42F90700DF4C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB6625971D42F90600DF4C39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB66259E1D42F90600DF4C39;
+			remoteInfo = AbbyTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB66259F1D42F90700DF4C39 /* AbbyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbbyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6625A21D42F90700DF4C39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB6625A41D42F90700DF4C39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB6625A71D42F90700DF4C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB6625AA1D42F90700DF4C39 /* AbbyTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AbbyTracker.xcdatamodel; sourceTree = "<group>"; };
+		DB6625AC1D42F90700DF4C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB6625AF1D42F90700DF4C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB6625B11D42F90700DF4C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6625B61D42F90700DF4C39 /* AbbyTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbbyTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6625BA1D42F90700DF4C39 /* AbbyTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbbyTrackerTests.swift; sourceTree = "<group>"; };
+		DB6625BC1D42F90700DF4C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6625C11D42F90700DF4C39 /* AbbyTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbbyTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6625C51D42F90700DF4C39 /* AbbyTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbbyTrackerUITests.swift; sourceTree = "<group>"; };
+		DB6625C71D42F90700DF4C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB66259C1D42F90600DF4C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6625B31D42F90700DF4C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6625BE1D42F90700DF4C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB6625961D42F90600DF4C39 = {
+			isa = PBXGroup;
+			children = (
+				DB6625A11D42F90700DF4C39 /* AbbyTracker */,
+				DB6625B91D42F90700DF4C39 /* AbbyTrackerTests */,
+				DB6625C41D42F90700DF4C39 /* AbbyTrackerUITests */,
+				DB6625A01D42F90700DF4C39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB6625A01D42F90700DF4C39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB66259F1D42F90700DF4C39 /* AbbyTracker.app */,
+				DB6625B61D42F90700DF4C39 /* AbbyTrackerTests.xctest */,
+				DB6625C11D42F90700DF4C39 /* AbbyTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB6625A11D42F90700DF4C39 /* AbbyTracker */ = {
+			isa = PBXGroup;
+			children = (
+				DB6625A21D42F90700DF4C39 /* AppDelegate.swift */,
+				DB6625A41D42F90700DF4C39 /* ViewController.swift */,
+				DB6625A61D42F90700DF4C39 /* Main.storyboard */,
+				DB6625AC1D42F90700DF4C39 /* Assets.xcassets */,
+				DB6625AE1D42F90700DF4C39 /* LaunchScreen.storyboard */,
+				DB6625B11D42F90700DF4C39 /* Info.plist */,
+				DB6625A91D42F90700DF4C39 /* AbbyTracker.xcdatamodeld */,
+			);
+			path = AbbyTracker;
+			sourceTree = "<group>";
+		};
+		DB6625B91D42F90700DF4C39 /* AbbyTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB6625BA1D42F90700DF4C39 /* AbbyTrackerTests.swift */,
+				DB6625BC1D42F90700DF4C39 /* Info.plist */,
+			);
+			path = AbbyTrackerTests;
+			sourceTree = "<group>";
+		};
+		DB6625C41D42F90700DF4C39 /* AbbyTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB6625C51D42F90700DF4C39 /* AbbyTrackerUITests.swift */,
+				DB6625C71D42F90700DF4C39 /* Info.plist */,
+			);
+			path = AbbyTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB66259E1D42F90600DF4C39 /* AbbyTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6625CA1D42F90700DF4C39 /* Build configuration list for PBXNativeTarget "AbbyTracker" */;
+			buildPhases = (
+				DB66259B1D42F90600DF4C39 /* Sources */,
+				DB66259C1D42F90600DF4C39 /* Frameworks */,
+				DB66259D1D42F90600DF4C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbbyTracker;
+			productName = AbbyTracker;
+			productReference = DB66259F1D42F90700DF4C39 /* AbbyTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB6625B51D42F90700DF4C39 /* AbbyTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6625CD1D42F90700DF4C39 /* Build configuration list for PBXNativeTarget "AbbyTrackerTests" */;
+			buildPhases = (
+				DB6625B21D42F90700DF4C39 /* Sources */,
+				DB6625B31D42F90700DF4C39 /* Frameworks */,
+				DB6625B41D42F90700DF4C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB6625B81D42F90700DF4C39 /* PBXTargetDependency */,
+			);
+			name = AbbyTrackerTests;
+			productName = AbbyTrackerTests;
+			productReference = DB6625B61D42F90700DF4C39 /* AbbyTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB6625C01D42F90700DF4C39 /* AbbyTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6625D01D42F90700DF4C39 /* Build configuration list for PBXNativeTarget "AbbyTrackerUITests" */;
+			buildPhases = (
+				DB6625BD1D42F90700DF4C39 /* Sources */,
+				DB6625BE1D42F90700DF4C39 /* Frameworks */,
+				DB6625BF1D42F90700DF4C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB6625C31D42F90700DF4C39 /* PBXTargetDependency */,
+			);
+			name = AbbyTrackerUITests;
+			productName = AbbyTrackerUITests;
+			productReference = DB6625C11D42F90700DF4C39 /* AbbyTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB6625971D42F90600DF4C39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Robert W. Rutta, Jr.";
+				TargetAttributes = {
+					DB66259E1D42F90600DF4C39 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DB6625B51D42F90700DF4C39 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DB66259E1D42F90600DF4C39;
+					};
+					DB6625C01D42F90700DF4C39 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DB66259E1D42F90600DF4C39;
+					};
+				};
+			};
+			buildConfigurationList = DB66259A1D42F90600DF4C39 /* Build configuration list for PBXProject "AbbyTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB6625961D42F90600DF4C39;
+			productRefGroup = DB6625A01D42F90700DF4C39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB66259E1D42F90600DF4C39 /* AbbyTracker */,
+				DB6625B51D42F90700DF4C39 /* AbbyTrackerTests */,
+				DB6625C01D42F90700DF4C39 /* AbbyTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB66259D1D42F90600DF4C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6625B01D42F90700DF4C39 /* LaunchScreen.storyboard in Resources */,
+				DB6625AD1D42F90700DF4C39 /* Assets.xcassets in Resources */,
+				DB6625A81D42F90700DF4C39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6625B41D42F90700DF4C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6625BF1D42F90700DF4C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB66259B1D42F90600DF4C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6625A51D42F90700DF4C39 /* ViewController.swift in Sources */,
+				DB6625A31D42F90700DF4C39 /* AppDelegate.swift in Sources */,
+				DB6625AB1D42F90700DF4C39 /* AbbyTracker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6625B21D42F90700DF4C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6625BB1D42F90700DF4C39 /* AbbyTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6625BD1D42F90700DF4C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6625C61D42F90700DF4C39 /* AbbyTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB6625B81D42F90700DF4C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB66259E1D42F90600DF4C39 /* AbbyTracker */;
+			targetProxy = DB6625B71D42F90700DF4C39 /* PBXContainerItemProxy */;
+		};
+		DB6625C31D42F90700DF4C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB66259E1D42F90600DF4C39 /* AbbyTracker */;
+			targetProxy = DB6625C21D42F90700DF4C39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB6625A61D42F90700DF4C39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6625A71D42F90700DF4C39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB6625AE1D42F90700DF4C39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6625AF1D42F90700DF4C39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB6625C81D42F90700DF4C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB6625C91D42F90700DF4C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB6625CB1D42F90700DF4C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbbyTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rwrutta.AbbyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB6625CC1D42F90700DF4C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbbyTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rwrutta.AbbyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB6625CE1D42F90700DF4C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AbbyTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rwrutta.AbbyTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbbyTracker.app/AbbyTracker";
+			};
+			name = Debug;
+		};
+		DB6625CF1D42F90700DF4C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AbbyTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rwrutta.AbbyTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbbyTracker.app/AbbyTracker";
+			};
+			name = Release;
+		};
+		DB6625D11D42F90700DF4C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AbbyTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rwrutta.AbbyTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AbbyTracker;
+			};
+			name = Debug;
+		};
+		DB6625D21D42F90700DF4C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AbbyTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rwrutta.AbbyTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AbbyTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB66259A1D42F90600DF4C39 /* Build configuration list for PBXProject "AbbyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6625C81D42F90700DF4C39 /* Debug */,
+				DB6625C91D42F90700DF4C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6625CA1D42F90700DF4C39 /* Build configuration list for PBXNativeTarget "AbbyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6625CB1D42F90700DF4C39 /* Debug */,
+				DB6625CC1D42F90700DF4C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB6625CD1D42F90700DF4C39 /* Build configuration list for PBXNativeTarget "AbbyTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6625CE1D42F90700DF4C39 /* Debug */,
+				DB6625CF1D42F90700DF4C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB6625D01D42F90700DF4C39 /* Build configuration list for PBXNativeTarget "AbbyTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6625D11D42F90700DF4C39 /* Debug */,
+				DB6625D21D42F90700DF4C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB6625A91D42F90700DF4C39 /* AbbyTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB6625AA1D42F90700DF4C39 /* AbbyTracker.xcdatamodel */,
+			);
+			currentVersion = DB6625AA1D42F90700DF4C39 /* AbbyTracker.xcdatamodel */;
+			path = AbbyTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB6625971D42F90600DF4C39 /* Project object */;
+}
